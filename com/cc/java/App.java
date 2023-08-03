@@ -25,6 +25,12 @@ public class App {
 
     //--- 3. Iteration :: Polymorphie ----- //
 
+    private static void pollObj(Bird obj) {
+        output(obj.fly());
+        output(obj.hasFeathers());
+        output("---------------------");
+    }
+
     private static void pollObj(HoneyBee obj) {
         output(obj.doYourJob());
         output(obj.fly());
